@@ -66,8 +66,8 @@ $(document).ready(function () {
 				}
 			},
 			error: function (textStatus, errorThrown) {
-                    console.log(textStatus);
-                    console.log(errorThrown);
+				console.log(textStatus);
+				console.log(errorThrown);
 			}
 			});
 	});
