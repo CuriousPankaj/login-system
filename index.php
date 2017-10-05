@@ -78,8 +78,6 @@ $('document').ready(function () {
 		url: "ajax/get-data.php",
 		success: function(returnedData) {
 			$('#userdata').text(returnedData);
-			//data = returnedData;
-			//console.log(data);
 		}
 	});
 
@@ -92,9 +90,6 @@ $('document').ready(function () {
 	};
 	CKEDITOR.replace('userdata');
 
-
-
-	//CKEDITOR.instances.userdata.setData(data);
 
 
 	$('#update-data').click(function () {
