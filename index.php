@@ -34,7 +34,7 @@ $mysqli->close();
 <div class="container-fluid">
 	<div>
 		<div class="col-md-12">
-			<center><h2>Login System</h2></center>
+			<h2>Login System</h2>
 		</div>
 		<div class="col-md-12">
 			<center>
